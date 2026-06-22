@@ -1,0 +1,88 @@
+.collat {
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.collat img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+.caixa-mapa {
+    background-image: url(imgs/Mapa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 300px;
+    width: auto;
+}
+
+.titulocard {
+    font-weight: 500;
+    color: #8FA7B2;
+    font-size: 16px;
+}
+
+.maxcrt {
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+.inputnome {
+    height: 70px;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.inputsobre {
+    height: 150px;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
+.caixa-upload-foto {
+    height: 96px;
+    width: 96px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: dashed;
+    cursor: pointer;
+    border-color: #96D2F0;
+}
+
+.atende {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sn {
+    height: 24px;
+    width: 64px;
+}
+
+.continuar {
+    width: 568px;
+    height: 64px;
+    background-color: #15C3D6;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 18px;
+    margin-top: 30px;
+    transition: transform 0.2s;
+
+}
+
+.continuar:hover {
+    transform: scale(1.08);
+}
+
+
